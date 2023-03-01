@@ -29,8 +29,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Just Another Text Editor',
-        short_name: 'J.A.T.E',
+        name: 'J.A.T.E. - Just Another Text Editor',
+        short_name: 'J.A.T.E.',
         description: 'Text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
@@ -42,7 +42,8 @@ module.exports = () => {
             sizes: [96, 128, 192, 256, 384, 512], 
             destination: path.join('assets', 'icons'),
           }
-        ]
+        ],
+        schema_color: '#ff0000',
       })
     ],
 
