@@ -27,8 +27,8 @@ module.exports = () => {
         swDest: 'src-sw.js'
       }),
       new WebpackPwaManifest({
-        fingerprints: false,
-        inject: true,
+        // fingerprints: false,
+        // inject: true,
         name: 'J.A.T.E. - Just Another Text Editor',
         short_name: 'J.A.T.E.',
         description: 'Text editor',
@@ -41,10 +41,13 @@ module.exports = () => {
             src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512], 
             destination: path.join('assets', 'icons'),
-          }
+          }, 
         ],
-        schema_color: '#ff0000',
-      })
+      }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'sw.js',
+      }),
     ],
 
     module: {
