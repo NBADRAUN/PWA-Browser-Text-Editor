@@ -1,16 +1,15 @@
 # PWA-Browser-Text-Editor
 A text editor that runs in a browser that meets PWA criteria
 
-
 ## Installation
-
-
+No installation required, just navigate to deployed application link of https://pwa-browser-text-editor.herokuapp.com/
 
 ## Usage
+Navigate to deployed application and simply start typing in the console.  you will be able to refresh, go offline and continue to type, close the browser, reconnect to the internet and your data will still be saved.  
 
 
 ## License
-
+[![License](https://img.shields.io/badge/License-MIT%20License-Green)](http://choosealicense.com/licenses/mit/)
 
 ## User Story
 - AS A developer
@@ -47,8 +46,8 @@ A text editor that runs in a browser that meets PWA criteria
 - THEN I should have proper build scripts for a webpack application
 
 
+## Video of application functions being used:    
 
-## Video of crud being performed via insomnia:  
 
 
 ## Questions 
