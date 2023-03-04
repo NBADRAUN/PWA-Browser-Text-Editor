@@ -47,6 +47,7 @@ Navigate to deployed application and simply start typing in the console.  you wi
 
 
 ## Video of application functions being used:    
+[Untitled_ Mar 4, 2023 1_56 PM.webm](https://user-images.githubusercontent.com/114446244/222928380-d1103869-f12c-4b7f-b83d-0a5f79bb7721.webm)
 
 
 
